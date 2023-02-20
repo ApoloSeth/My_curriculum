@@ -1,0 +1,277 @@
+body {
+    background-color: #F5F7FA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Contenido principal */
+.contenedor-principal {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+/* Información General */
+.informacion-general {
+    padding-left: 88px;
+    padding-top: 100px;
+}
+
+.texto-naranja {
+    color: #FB6D3A;
+}
+
+/* Información principal */
+.descripcion {
+    margin-bottom: 40px;
+
+}
+
+.descripcion h2 {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.descripcion h1 {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;  
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.descripcion p {
+    color: #595959;
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+}
+
+.proyectos {
+    margin-top: 45px;
+}
+
+.proyectos h3 {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.proyectos ol {
+    padding-left: 17px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.proyectos a {
+    color: #595959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.puntos-proyecto {
+    color: #595959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.programa-proyectos {
+    color: #595959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;  
+}
+
+/* Experiencia Laboral */
+.experiencia {
+    margin-top: 45px;
+}
+
+.experiencia h3 {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 16px;
+}
+
+.experiencia h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.experiencia p {
+    color: #A8A8A8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px; 
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.experiencia ul {
+    color: #595959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 17px;
+    margin-top: 5px;
+}
+
+/* Educación */
+.educacion {
+    margin-top: 43px;
+}
+
+.educacion h3 {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 0px;
+}
+
+.educacion h4 {
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.educacion h5 {
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0px;
+}
+
+.educacion p {
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+/* Información Lalateral */
+.informacion-lateral {
+    background-color: #1E2939;
+    padding: 40px 0;
+}
+
+
+/* Contacto */
+
+
+.contacto h3 {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 50px;
+}
+
+
+.contacto, .habilidades-tecnicas, .habilidades-blandas {
+    margin-left: 40px;
+}
+
+.contacto div span{
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.contacto-info {
+    color: rgb(177, 177, 177);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Habilidades técnicas */
+.habilidades-tecnicas {
+    color: #FFFFFF;
+}
+
+.habilidades-tecnicas h3 {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.habilidades-tecnicas ul {
+    color: #FB6D3A;
+    padding-left: 25px;
+}
+
+.habilidades-tecnicas span {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Habilidas blandas */
+.habilidades-blandas h3 {
+    color: #FFFFFF;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.habilidades-blandas ul{
+    color: #FB6D3A;
+    padding-left: 25px;
+}
+
+.habilidades-blandas span {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
